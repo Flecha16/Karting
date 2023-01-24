@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49386
+49523
 Successfully changed project path to: /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game
 /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/flecha/Documents/UDLA/SEXTO SEMESTR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8799076608] Host "[IP] 192.168.100.27 [Port] 0 [Flags] 2 [Guid] 1767454870 [EditorId] 1767454870 [Version] 1048832 [Id] OSXEditor(0,FLECHA-MACBOOK-PRO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8773648640] Host "[IP] 192.168.100.27 [Port] 0 [Flags] 2 [Guid] 1942765962 [EditorId] 1942765962 [Version] 1048832 [Id] OSXEditor(0,FLECHA-MACBOOK-PRO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8799076608] Host "[IP] 192.168.100.27 [Port] 0 [Flags] 2 [Guid] 1767454870 [EditorId] 1767454870 [Version] 1048832 [Id] OSXEditor(0,FLECHA-MACBOOK-PRO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8773648640] Host "[IP] 192.168.100.27 [Port] 0 [Flags] 2 [Guid] 1942765962 [EditorId] 1942765962 [Version] 1048832 [Id] OSXEditor(0,FLECHA-MACBOOK-PRO.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 143.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 144.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,81 +73,81 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56446
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56665
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.000753 seconds.
+Registered in 0.003058 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 145.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 143.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
+- Completed reload, in  0.656 seconds
 Domain Reload Profiling:
-	ReloadAssembly (597ms)
-		BeginReloadAssembly (29ms)
+	ReloadAssembly (657ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (489ms)
-			LoadAssemblies (29ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (353ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (372ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (68ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (145ms)
+				RefreshPlugins (144ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004314 seconds.
+Registered in 0.009239 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 143.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 142.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
+- Completed reload, in  1.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1154ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (47ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (586ms)
+			SetupLoadedEditorAssemblies (590ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (143ms)
 				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -157,12 +157,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6265 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 109 unused Assets / (23.0 MB). Loaded Objects now: 6664.
-Memory consumption went from 272.1 MB to 249.0 MB.
-Total: 6.720834 ms (FindLiveObjects: 0.229167 ms CreateObjectMapping: 0.095583 ms MarkObjects: 2.913875 ms  DeleteObjects: 3.481417 ms)
+Unloading 6266 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 109 unused Assets / (23.0 MB). Loaded Objects now: 6665.
+Memory consumption went from 272.1 MB to 249.1 MB.
+Total: 7.307709 ms (FindLiveObjects: 0.220542 ms CreateObjectMapping: 0.095541 ms MarkObjects: 3.348834 ms  DeleteObjects: 3.642250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,224 +176,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 554.632159 seconds.
-  path: Assets/Karting/Prefabs/KartClassic/KartClassic_MLAgent.prefab
-  artifactKey: Guid(5f7c5784d4776074089b56351be94b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/KartClassic/KartClassic_MLAgent.prefab using Guid(5f7c5784d4776074089b56351be94b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c92e5a1a455843c6646aab7f89fa27') in 1.053180 seconds 
+  Time since last request: 1656.726653 seconds.
+  path: Assets/Karting/Art/Textures/UI/Gradiants.png
+  artifactKey: Guid(69a090905eb8e8540b8a413214c097fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Textures/UI/Gradiants.png using Guid(69a090905eb8e8540b8a413214c097fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a92f46208a00731f18b318e6e416db') in 0.576298 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.835954 seconds.
-  path: Assets/Karting/Scripts/GhostManager.cs
-  artifactKey: Guid(62479b003a9f14ea293cd0efe239e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/GhostManager.cs using Guid(62479b003a9f14ea293cd0efe239e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ba63a21f5ee2ee860ca57643d3e11f') in 0.107745 seconds 
+  Time since last request: 0.000067 seconds.
+  path: Assets/Karting/Art/Textures/UI/CloseBtn_Icon.png
+  artifactKey: Guid(ed918747b629f41a2ac644a5596f15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Textures/UI/CloseBtn_Icon.png using Guid(ed918747b629f41a2ac644a5596f15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6a452bff2ef44bcd654d794c05db8d') in 0.008521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Karting/Art/Textures/UI/Notification_Enemy_Icon.png
+  artifactKey: Guid(f508c28b9e2b993418fa54db9c535ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Textures/UI/Notification_Enemy_Icon.png using Guid(f508c28b9e2b993418fa54db9c535ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674ea865013f336a9920af984d206339') in 0.006987 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004097 seconds.
+Registered in 0.003790 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x29f063000 may have been prematurely finalized
+Thread 0x2a8fc7000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
-2023-01-23 13:43:33.155 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  1.052 seconds
 Domain Reload Profiling:
-	ReloadAssembly (984ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (806ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (387ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 90 unused Assets / (23.0 MB). Loaded Objects now: 6735.
-Memory consumption went from 276.3 MB to 253.3 MB.
-Total: 5.991625 ms (FindLiveObjects: 0.229833 ms CreateObjectMapping: 0.108792 ms MarkObjects: 2.845000 ms  DeleteObjects: 2.807333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 630.148971 seconds.
-  path: Assets/Karting/Scripts/GhostManager.cs
-  artifactKey: Guid(62479b003a9f14ea293cd0efe239e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/GhostManager.cs using Guid(62479b003a9f14ea293cd0efe239e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e205e68019a59bdbe9f82f352b1bd9') in 0.010022 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004485 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17ca07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 13:55:46.297 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (366ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6752.
-Memory consumption went from 276.2 MB to 253.2 MB.
-Total: 5.392417 ms (FindLiveObjects: 0.221041 ms CreateObjectMapping: 0.091292 ms MarkObjects: 2.905333 ms  DeleteObjects: 2.173917 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 362.163572 seconds.
-  path: Assets/Karting/Prefabs/KartClassic/GhostKart.prefab
-  artifactKey: Guid(e85e11d0a9a8345abbeb762ff1c96c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/KartClassic/GhostKart.prefab using Guid(e85e11d0a9a8345abbeb762ff1c96c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ad3760eb4941a8993c6e75f3f3f94f') in 0.185587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 219.830126 seconds.
-  path: Assets/Karting/Prefabs/KartClassic/BaseKartClassic.prefab
-  artifactKey: Guid(cba6236a3ca88a54081cc989c4f0c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/KartClassic/BaseKartClassic.prefab using Guid(cba6236a3ca88a54081cc989c4f0c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3833ab4760d87239a529df9214130f') in 0.005762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Karting/Prefabs/KartClassic/KartClassic_Player.prefab
-  artifactKey: Guid(19954de30401f73428254541a9ad156e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/KartClassic/KartClassic_Player.prefab using Guid(19954de30401f73428254541a9ad156e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d85cd74c0b37b5fb1ddd515066198d9') in 0.024915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Karting/Prefabs/KartClassic/KartClassic_MLAgent.prefab
-  artifactKey: Guid(5f7c5784d4776074089b56351be94b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/KartClassic/KartClassic_MLAgent.prefab using Guid(5f7c5784d4776074089b56351be94b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c618864064d17414527f9f0eef607d8') in 0.024175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 150.212997 seconds.
-  path: Assets/Karting/Animations
-  artifactKey: Guid(0c15162713ab93f49ab6d3fbe22edf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Animations using Guid(0c15162713ab93f49ab6d3fbe22edf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3292cb8a11d65c1f48673a25daa8caa') in 0.001091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.521646 seconds.
-  path: Assets/Karting/New Material.mat
-  artifactKey: Guid(e34d36729526d4b99b9cd3c38323959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/New Material.mat using Guid(e34d36729526d4b99b9cd3c38323959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ea93a34fa8064e6be0c3229c68093') in 0.183324 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004342 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17cb23000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:08:08.697 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (417ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (254ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (262ms)
 				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 90 unused Assets / (23.0 MB). Loaded Objects now: 6842.
-Memory consumption went from 281.7 MB to 258.7 MB.
-Total: 5.875375 ms (FindLiveObjects: 0.306458 ms CreateObjectMapping: 0.103500 ms MarkObjects: 3.135000 ms  DeleteObjects: 2.329541 ms)
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6693.
+Memory consumption went from 269.8 MB to 246.8 MB.
+Total: 6.249542 ms (FindLiveObjects: 0.222208 ms CreateObjectMapping: 0.114250 ms MarkObjects: 3.395250 ms  DeleteObjects: 2.517250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -408,51 +253,108 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004318 seconds.
+Registered in 0.004640 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
+Thread 0x29a457000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
-2023-01-23 14:09:25.305 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  1.073 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6710.
+Memory consumption went from 269.9 MB to 246.9 MB.
+Total: 5.870500 ms (FindLiveObjects: 0.213583 ms CreateObjectMapping: 0.091709 ms MarkObjects: 3.081291 ms  DeleteObjects: 2.483334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004247 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29a45f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (44ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (883ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (426ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (422ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6859.
-Memory consumption went from 281.6 MB to 258.6 MB.
-Total: 5.528750 ms (FindLiveObjects: 0.226917 ms CreateObjectMapping: 0.099416 ms MarkObjects: 2.884750 ms  DeleteObjects: 2.317209 ms)
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6727.
+Memory consumption went from 269.9 MB to 246.9 MB.
+Total: 5.688334 ms (FindLiveObjects: 0.262292 ms CreateObjectMapping: 0.098583 ms MarkObjects: 3.043750 ms  DeleteObjects: 2.282625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -467,51 +369,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004287 seconds.
+Registered in 0.005357 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
+Thread 0x16ff9f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
-2023-01-23 14:09:41.552 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
+- Completed reload, in  0.947 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1000ms)
+	ReloadAssembly (948ms)
 		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (833ms)
-			LoadAssemblies (40ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (269ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (412ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6876.
-Memory consumption went from 281.6 MB to 258.6 MB.
-Total: 5.557209 ms (FindLiveObjects: 0.226375 ms CreateObjectMapping: 0.100083 ms MarkObjects: 2.915500 ms  DeleteObjects: 2.314167 ms)
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6744.
+Memory consumption went from 269.9 MB to 246.9 MB.
+Total: 5.286750 ms (FindLiveObjects: 0.235375 ms CreateObjectMapping: 0.101958 ms MarkObjects: 2.841833 ms  DeleteObjects: 2.106667 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -524,53 +425,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 4175.378999 seconds.
+  path: Assets/Karting/Scripts/puntaje.cs
+  artifactKey: Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Scripts/puntaje.cs using Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a504b4b353bb6a8161cbf29748d3d6e') in 0.122864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.460782 seconds.
+  path: Assets/Karting/Scripts/TimeController.cs
+  artifactKey: Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Scripts/TimeController.cs using Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1c834f1991a2a91182ec8d888fc8e2') in 0.001271 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004382 seconds.
+Registered in 0.003501 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
+Thread 0x16ff9f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
-2023-01-23 14:10:27.681 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  0.997 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1061ms)
+	ReloadAssembly (997ms)
 		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (424ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6893.
-Memory consumption went from 281.7 MB to 258.7 MB.
-Total: 5.707042 ms (FindLiveObjects: 0.249875 ms CreateObjectMapping: 0.115541 ms MarkObjects: 3.012292 ms  DeleteObjects: 2.328708 ms)
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6761.
+Memory consumption went from 274.0 MB to 251.1 MB.
+Total: 5.682208 ms (FindLiveObjects: 0.233042 ms CreateObjectMapping: 0.101541 ms MarkObjects: 3.051000 ms  DeleteObjects: 2.295791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.209504 seconds.
+  path: Assets/Karting/Scripts/puntaje.cs
+  artifactKey: Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Scripts/puntaje.cs using Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b118fa3a492d14cec658e5826040e4a') in 0.010329 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005357 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16ff9f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Domain Reload Profiling:
+	ReloadAssembly (956ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6778.
+Memory consumption went from 274.1 MB to 251.1 MB.
+Total: 5.438708 ms (FindLiveObjects: 0.246917 ms CreateObjectMapping: 0.102875 ms MarkObjects: 2.908958 ms  DeleteObjects: 2.179166 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -585,18 +561,133 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005891 seconds.
+Registered in 0.004432 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
+Thread 0x16ff9f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
-2023-01-23 14:11:09.612 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6795.
+Memory consumption went from 274.1 MB to 251.1 MB.
+Total: 5.724542 ms (FindLiveObjects: 0.222334 ms CreateObjectMapping: 0.100541 ms MarkObjects: 3.049250 ms  DeleteObjects: 2.352000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006296 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16ff9f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6812.
+Memory consumption went from 274.1 MB to 251.1 MB.
+Total: 5.359000 ms (FindLiveObjects: 0.237417 ms CreateObjectMapping: 0.101792 ms MarkObjects: 2.848083 ms  DeleteObjects: 2.171083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004720 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29a03b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1049ms)
 		BeginReloadAssembly (95ms)
@@ -605,409 +696,31 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (884ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (436ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6910.
-Memory consumption went from 281.7 MB to 258.7 MB.
-Total: 5.687375 ms (FindLiveObjects: 0.259750 ms CreateObjectMapping: 0.111041 ms MarkObjects: 3.036167 ms  DeleteObjects: 2.279708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004564 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:11:39.679 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1035ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (445ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6927.
-Memory consumption went from 281.7 MB to 258.7 MB.
-Total: 5.633916 ms (FindLiveObjects: 0.233375 ms CreateObjectMapping: 0.096625 ms MarkObjects: 3.018333 ms  DeleteObjects: 2.284542 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004168 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:11:46.873 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (842ms)
-			LoadAssemblies (39ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6944.
-Memory consumption went from 281.7 MB to 258.7 MB.
-Total: 5.864291 ms (FindLiveObjects: 0.241375 ms CreateObjectMapping: 0.104417 ms MarkObjects: 3.094000 ms  DeleteObjects: 2.423792 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004221 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:12:01.464 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (860ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (430ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6961.
-Memory consumption went from 281.8 MB to 258.8 MB.
-Total: 5.805292 ms (FindLiveObjects: 0.244417 ms CreateObjectMapping: 0.098083 ms MarkObjects: 3.190083 ms  DeleteObjects: 2.271833 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 393.679666 seconds.
-  path: Assets/Karting/Ghost.mat
-  artifactKey: Guid(e34d36729526d4b99b9cd3c38323959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Ghost.mat using Guid(e34d36729526d4b99b9cd3c38323959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7da6834c848c45f48a0e0dfefc3c65') in 0.130087 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004197 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:13:36.895 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.032 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1033ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (858ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (434ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7018.
-Memory consumption went from 281.9 MB to 258.9 MB.
-Total: 5.938375 ms (FindLiveObjects: 0.257083 ms CreateObjectMapping: 0.161125 ms MarkObjects: 3.070083 ms  DeleteObjects: 2.449208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 803.142775 seconds.
-  path: Assets/Karting/Prefabs/VFX/DirectionalLight.prefab
-  artifactKey: Guid(993d2f3ed51454869af0023769df26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/VFX/DirectionalLight.prefab using Guid(993d2f3ed51454869af0023769df26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb42bfb4abf7279bec42f49d5df7f684') in 0.151771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Karting/Prefabs/VFX/JumpDustVFX.prefab
-  artifactKey: Guid(63b5def8db7a0de41ab8201bc3ce6dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Prefabs/VFX/JumpDustVFX.prefab using Guid(63b5def8db7a0de41ab8201bc3ce6dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40708c2c443c8edb7064d904fafc2d2a') in 0.101322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.508975 seconds.
-  path: Assets/Karting/Art/Materials/Props/CheckPoint_Particle.mat
-  artifactKey: Guid(9b4fae447e271f94dbceadcb2b680633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Art/Materials/Props/CheckPoint_Particle.mat using Guid(9b4fae447e271f94dbceadcb2b680633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e908014d83d47f4f5e820e7888736652') in 0.025084 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004683 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17be83000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:29:09.384 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (914ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7075.
-Memory consumption went from 282.0 MB to 259.0 MB.
-Total: 5.768958 ms (FindLiveObjects: 0.248458 ms CreateObjectMapping: 0.100208 ms MarkObjects: 3.083709 ms  DeleteObjects: 2.332917 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005606 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:32:05.426 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1068ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (45ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (458ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7092.
-Memory consumption went from 281.9 MB to 258.9 MB.
-Total: 5.780791 ms (FindLiveObjects: 0.267250 ms CreateObjectMapping: 0.109250 ms MarkObjects: 3.089708 ms  DeleteObjects: 2.313833 ms)
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6829.
+Memory consumption went from 274.1 MB to 251.1 MB.
+Total: 5.508125 ms (FindLiveObjects: 0.231166 ms CreateObjectMapping: 0.096042 ms MarkObjects: 2.878208 ms  DeleteObjects: 2.302125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1022,228 +735,114 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004986 seconds.
+Registered in 0.004933 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
+Thread 0x29a453000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
-2023-01-23 14:32:17.091 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
+- Completed reload, in  0.985 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1017ms)
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6846.
+Memory consumption went from 274.2 MB to 251.1 MB.
+Total: 5.728541 ms (FindLiveObjects: 0.255459 ms CreateObjectMapping: 0.124958 ms MarkObjects: 3.061250 ms  DeleteObjects: 2.286375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355.681358 seconds.
+  path: Assets/Karting/Scripts/puntaje.cs
+  artifactKey: Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Scripts/puntaje.cs using Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad10bf4440aa3821ade48aa19bd19a5') in 0.010160 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004572 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16ff13000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
 		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (848ms)
-			LoadAssemblies (43ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7109.
-Memory consumption went from 281.9 MB to 258.9 MB.
-Total: 5.769625 ms (FindLiveObjects: 0.262750 ms CreateObjectMapping: 0.109709 ms MarkObjects: 2.967291 ms  DeleteObjects: 2.428791 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003600 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:39:53.698 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (49ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (429ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7126.
-Memory consumption went from 281.9 MB to 258.9 MB.
-Total: 5.762500 ms (FindLiveObjects: 0.274959 ms CreateObjectMapping: 0.104916 ms MarkObjects: 3.094459 ms  DeleteObjects: 2.287417 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004408 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:41:59.053 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (917ms)
+		EndReloadAssembly (789ms)
 			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (409ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7143.
-Memory consumption went from 282.0 MB to 258.9 MB.
-Total: 6.140584 ms (FindLiveObjects: 0.282042 ms CreateObjectMapping: 0.104125 ms MarkObjects: 3.264166 ms  DeleteObjects: 2.489459 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005479 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17c147000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:51:06.049 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1007ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (42ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (239ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (234ms)
 				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7160.
-Memory consumption went from 282.0 MB to 259.0 MB.
-Total: 5.701375 ms (FindLiveObjects: 0.249042 ms CreateObjectMapping: 0.100291 ms MarkObjects: 3.041459 ms  DeleteObjects: 2.309916 ms)
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 6863.
+Memory consumption went from 274.2 MB to 251.2 MB.
+Total: 5.410125 ms (FindLiveObjects: 0.220666 ms CreateObjectMapping: 0.091333 ms MarkObjects: 2.917417 ms  DeleteObjects: 2.180000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1255,1578 +854,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003686 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:52:31.111 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
-Domain Reload Profiling:
-	ReloadAssembly (986ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (377ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7177.
-Memory consumption went from 282.0 MB to 259.0 MB.
-Total: 5.521750 ms (FindLiveObjects: 0.253583 ms CreateObjectMapping: 0.099792 ms MarkObjects: 2.902791 ms  DeleteObjects: 2.264917 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004556 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:52:35.277 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1023ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (850ms)
-			LoadAssemblies (48ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (405ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7194.
-Memory consumption went from 282.0 MB to 259.0 MB.
-Total: 7.999583 ms (FindLiveObjects: 0.276750 ms CreateObjectMapping: 0.112625 ms MarkObjects: 5.052125 ms  DeleteObjects: 2.557333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1561.637409 seconds.
-  path: Assets/Karting/Scripts/puntaje.cs
-  artifactKey: Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/puntaje.cs using Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcb42a559c3f1a7aec1e950c6b19323') in 0.012230 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003984 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:55:23.838 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1030ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (857ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (400ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7211.
-Memory consumption went from 282.0 MB to 259.0 MB.
-Total: 5.767916 ms (FindLiveObjects: 0.258625 ms CreateObjectMapping: 0.108958 ms MarkObjects: 3.029875 ms  DeleteObjects: 2.369375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004594 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 14:57:28.570 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (842ms)
-			LoadAssemblies (48ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (400ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7228.
-Memory consumption went from 282.1 MB to 259.1 MB.
-Total: 5.791583 ms (FindLiveObjects: 0.253958 ms CreateObjectMapping: 0.103250 ms MarkObjects: 3.055833 ms  DeleteObjects: 2.377625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 587.531893 seconds.
-  path: Assets/Karting/Scripts/TimeController.cs
-  artifactKey: Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/TimeController.cs using Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1b06f9c943f35f24a014057326d8ab') in 0.012341 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003796 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:13:18.867 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (814ms)
-			LoadAssemblies (47ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7245.
-Memory consumption went from 282.1 MB to 259.1 MB.
-Total: 5.554500 ms (FindLiveObjects: 0.254958 ms CreateObjectMapping: 0.102417 ms MarkObjects: 2.953958 ms  DeleteObjects: 2.242458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003477 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:13:21.970 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1002ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (831ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (397ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7262.
-Memory consumption went from 282.1 MB to 259.1 MB.
-Total: 5.555667 ms (FindLiveObjects: 0.249041 ms CreateObjectMapping: 0.102750 ms MarkObjects: 2.968167 ms  DeleteObjects: 2.234917 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005589 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:17:12.206 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
-Domain Reload Profiling:
-	ReloadAssembly (997ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (42ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (388ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7279.
-Memory consumption went from 282.1 MB to 259.1 MB.
-Total: 5.560125 ms (FindLiveObjects: 0.244167 ms CreateObjectMapping: 0.097042 ms MarkObjects: 2.920583 ms  DeleteObjects: 2.297416 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8031.210351 seconds.
-  path: Assets/Karting/Scripts/puntaje.cs
-  artifactKey: Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/puntaje.cs using Guid(cfb44de192fe6f143bab5a58c0a93777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e1f068e902b18390205769a68c0ae7') in 0.009519 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004933 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:17:19.594 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (847ms)
-			LoadAssemblies (39ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (411ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7296.
-Memory consumption went from 282.2 MB to 259.2 MB.
-Total: 5.946625 ms (FindLiveObjects: 0.343625 ms CreateObjectMapping: 0.116375 ms MarkObjects: 3.121250 ms  DeleteObjects: 2.364459 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 74.377860 seconds.
-  path: Assets/Karting/Scenes/IntroMenu.unity
-  artifactKey: Guid(d29260d8d84c94bd7ac95807b3da99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/IntroMenu.unity using Guid(d29260d8d84c94bd7ac95807b3da99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfe10f0b7b2d2abe5e681fa82d5c2cc') in 0.010952 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004270 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:18:45.055 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1043ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7313.
-Memory consumption went from 282.2 MB to 259.2 MB.
-Total: 5.761042 ms (FindLiveObjects: 0.294375 ms CreateObjectMapping: 0.116208 ms MarkObjects: 3.031458 ms  DeleteObjects: 2.318167 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 51.931688 seconds.
-  path: Assets/Karting/Scenes/Karting Project.unity
-  artifactKey: Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/Karting Project.unity using Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b5fb84d0a4444df97f1d38bb1f89a9') in 0.009177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.290867 seconds.
-  path: Assets/Karting/Scripts/TimeController.cs
-  artifactKey: Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/TimeController.cs using Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf50638ec69ac43ee4ebd3808a1c2b03') in 0.000939 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004535 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:20:29.929 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (844ms)
-			LoadAssemblies (42ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (403ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7330.
-Memory consumption went from 282.2 MB to 259.2 MB.
-Total: 5.482208 ms (FindLiveObjects: 0.261875 ms CreateObjectMapping: 0.099541 ms MarkObjects: 2.901417 ms  DeleteObjects: 2.218500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 71.918926 seconds.
-  path: Assets/Karting/Scripts/TimeController.cs
-  artifactKey: Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scripts/TimeController.cs using Guid(347f1edd2fb8441cca3f49184bc6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3d3096a2cf6096508256abaa4bea3e') in 0.009051 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005485 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:21:26.647 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (45ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (455ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7347.
-Memory consumption went from 282.3 MB to 259.2 MB.
-Total: 5.907125 ms (FindLiveObjects: 0.307292 ms CreateObjectMapping: 0.120000 ms MarkObjects: 3.097083 ms  DeleteObjects: 2.381958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006465 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:27:43.900 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (43ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7364.
-Memory consumption went from 282.3 MB to 259.3 MB.
-Total: 5.766500 ms (FindLiveObjects: 0.276791 ms CreateObjectMapping: 0.100750 ms MarkObjects: 3.134875 ms  DeleteObjects: 2.253292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003962 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:27:48.089 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.JsonUtility.FromJson[T] (System.String json) [0x00001] in /Users/bokken/build/output/unity/unity/Modules/JSONSerialize/Public/JsonUtility.bindings.cs:30 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00067] in /Users/bokken/build/output/unity/unity/Editor/Mono/Utils/StateCache.cs:88 
-  at UnityEditor.Tools.OnEnable () [0x0003a] in /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/Tools/Tools.cs:389 
-UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
-UnityEngine.ScriptableObject:CreateInstance(Type) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/ScriptableObject.bindings.cs:35)
-UnityEngine.ScriptableObject:CreateInstance() (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/ScriptableObject.bindings.cs:41)
-UnityEditor.Tools:get_get() (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/Tools/Tools.cs:50)
-UnityEditor.Tools:get_lockedLayers() (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/Tools/Tools.cs:371)
-AutoLockUILayer:SetUILayerIsLocked(Boolean) (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:36)
-AutoLockUILayer:.cctor() (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:16)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/Tools/Tools.cs Line: 389)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7381.
-Memory consumption went from 282.4 MB to 259.4 MB.
-Total: 9.043875 ms (FindLiveObjects: 0.274292 ms CreateObjectMapping: 0.130459 ms MarkObjects: 6.294791 ms  DeleteObjects: 2.343333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004598 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:28:11.990 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (870ms)
-			LoadAssemblies (47ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (417ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7398.
-Memory consumption went from 282.4 MB to 259.4 MB.
-Total: 5.862417 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.102500 ms MarkObjects: 3.048167 ms  DeleteObjects: 2.441042 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 530.096751 seconds.
-  path: Assets/Karting/Scenes/GameOver.unity
-  artifactKey: Guid(c289ac435fddc4c9f9dc216e9963d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/GameOver.unity using Guid(c289ac435fddc4c9f9dc216e9963d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c822fb085d02622cd39608db012bdd6') in 0.015347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.857742 seconds.
-  path: Assets/Karting/Scenes/GameWin.unity
-  artifactKey: Guid(45452e622ef7a45bbb745bfa60208065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/GameWin.unity using Guid(45452e622ef7a45bbb745bfa60208065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264bfd7e212b3e1c61980a2c65897976') in 0.001124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.927197 seconds.
-  path: Assets/Karting/Scenes/GameOver.unity
-  artifactKey: Guid(c289ac435fddc4c9f9dc216e9963d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/GameOver.unity using Guid(c289ac435fddc4c9f9dc216e9963d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe058815cf86520c56f26d1b10a5f975') in 0.001407 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007364 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:31:08.842 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (843ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7415.
-Memory consumption went from 282.5 MB to 259.5 MB.
-Total: 5.619084 ms (FindLiveObjects: 0.269500 ms CreateObjectMapping: 0.104667 ms MarkObjects: 2.960584 ms  DeleteObjects: 2.283458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 144.895859 seconds.
-  path: Assets/Karting/Scenes/Karting Project.unity
-  artifactKey: Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/Karting Project.unity using Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ff3e3cb511aa17968162995487690c') in 0.017564 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003582 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:33:54.355 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
-Domain Reload Profiling:
-	ReloadAssembly (999ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (828ms)
-			LoadAssemblies (42ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (393ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7432.
-Memory consumption went from 282.5 MB to 259.5 MB.
-Total: 5.632458 ms (FindLiveObjects: 0.265875 ms CreateObjectMapping: 0.102791 ms MarkObjects: 2.864417 ms  DeleteObjects: 2.398542 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005751 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:36:32.624 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1012ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (842ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7449.
-Memory consumption went from 282.5 MB to 259.5 MB.
-Total: 5.741584 ms (FindLiveObjects: 0.333875 ms CreateObjectMapping: 0.106208 ms MarkObjects: 2.973042 ms  DeleteObjects: 2.327542 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004441 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:36:56.627 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (39ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7466.
-Memory consumption went from 282.5 MB to 259.5 MB.
-Total: 5.687958 ms (FindLiveObjects: 0.275208 ms CreateObjectMapping: 0.100833 ms MarkObjects: 3.060042 ms  DeleteObjects: 2.251291 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004125 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17bdf7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:40:10.353 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (934ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7483.
-Memory consumption went from 282.5 MB to 259.5 MB.
-Total: 5.887917 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.105417 ms MarkObjects: 3.154416 ms  DeleteObjects: 2.344375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 738.080112 seconds.
-  path: Assets/Karting/Scenes/Karting Project.unity
-  artifactKey: Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/Karting Project.unity using Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263db1a35855812cebfc64e66ed9bdf7') in 0.038963 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003625 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e12b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:47:11.042 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1109ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7500.
-Memory consumption went from 282.6 MB to 259.5 MB.
-Total: 5.761166 ms (FindLiveObjects: 0.319834 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.964042 ms  DeleteObjects: 2.363666 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005256 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:47:43.649 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1014ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7517.
-Memory consumption went from 282.6 MB to 259.6 MB.
-Total: 5.795750 ms (FindLiveObjects: 0.286792 ms CreateObjectMapping: 0.102708 ms MarkObjects: 3.056250 ms  DeleteObjects: 2.349208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006071 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:48:17.774 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (998ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7534.
-Memory consumption went from 282.6 MB to 259.6 MB.
-Total: 5.744208 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.100625 ms MarkObjects: 3.075584 ms  DeleteObjects: 2.300792 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006682 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16e1b7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 17:48:20.752 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (40ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (397ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7551.
-Memory consumption went from 282.6 MB to 259.6 MB.
-Total: 5.734959 ms (FindLiveObjects: 0.302458 ms CreateObjectMapping: 0.105000 ms MarkObjects: 3.008667 ms  DeleteObjects: 2.317500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 692.949747 seconds.
-  path: Assets/Karting/Scenes/MainScene1.unity
-  artifactKey: Guid(56cd893a82a7d458a9b564e18001bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/MainScene1.unity using Guid(56cd893a82a7d458a9b564e18001bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a3bfbe6355f129c1cdb739158354f6') in 0.046872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.926315 seconds.
-  path: Assets/Karting/Scenes/MainScene.unity
-  artifactKey: Guid(92786e23da2af4a4f8803aaf44c47121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/MainScene.unity using Guid(92786e23da2af4a4f8803aaf44c47121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440338d2ac86290d48281612368427ba') in 0.002427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.414945 seconds.
-  path: Assets/Karting/Scenes/Karting Project.unity
-  artifactKey: Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/Karting Project.unity using Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1db342a0af93f2427d82d9b832ce2c1') in 0.000817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.312766 seconds.
-  path: Assets/Karting/Scenes/MainScene.unity
-  artifactKey: Guid(92786e23da2af4a4f8803aaf44c47121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/MainScene.unity using Guid(92786e23da2af4a4f8803aaf44c47121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857d1d4cf3089014345b044f5cedf4f4') in 0.001508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.668459 seconds.
-  path: Assets/Karting/Scenes/MainScene1.unity
-  artifactKey: Guid(56cd893a82a7d458a9b564e18001bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/MainScene1.unity using Guid(56cd893a82a7d458a9b564e18001bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dcded669d3d0c491cf62050e424b95') in 0.001105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.443906 seconds.
-  path: Assets/Karting/Scenes/WinScene.unity
-  artifactKey: Guid(d6801f2e59f75ee4b919cf5da4e48e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/WinScene.unity using Guid(d6801f2e59f75ee4b919cf5da4e48e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7fa0e92dd11c15a6e804de11df5b25') in 0.001248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.167532 seconds.
-  path: Assets/Karting/Scenes/WinSceneSettings.lighting
-  artifactKey: Guid(1e92f32de8c19274cae18a28d7d29336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/WinSceneSettings.lighting using Guid(1e92f32de8c19274cae18a28d7d29336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
-LightingSettings: switching bake backend from 2 to 1.
- -> (artifact id: 'd725c8e0097b7b379e9896649d5902f9') in 0.046102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.629924 seconds.
-  path: Assets/Karting/Scenes/LoseSceneSettings.lighting
-  artifactKey: Guid(68917164ec61228428173d2bf2f71176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/LoseSceneSettings.lighting using Guid(68917164ec61228428173d2bf2f71176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
-LightingSettings: switching bake backend from 2 to 1.
- -> (artifact id: 'bc38612c975ac99751427c29daf8d301') in 0.001794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.125206 seconds.
-  path: Assets/Karting/Scenes/MainScene1.unity
-  artifactKey: Guid(56cd893a82a7d458a9b564e18001bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/MainScene1.unity using Guid(56cd893a82a7d458a9b564e18001bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df82dd6ebd3745bd687b99f6f7fe540') in 0.001264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1548.444912 seconds.
-  path: Assets/Karting/Scenes/IntroMenu.unity
-  artifactKey: Guid(d29260d8d84c94bd7ac95807b3da99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/IntroMenu.unity using Guid(d29260d8d84c94bd7ac95807b3da99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915040ecf5ec58733c247c94c9d71079') in 0.002986 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003663 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17be83000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/flecha/Documents/UDLA/SEXTO SEMESTRE/DESARROLLO DE VIDEOJUEGOS/Karting Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-2023-01-23 18:59:48.032 Unity[1446:14508] [XcodeApplications] Failed to read NSDictionary from path \]6/Contents/Info.plist
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1231ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (54ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (441ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (23.0 MB). Loaded Objects now: 7568.
-Memory consumption went from 286.8 MB to 263.8 MB.
-Total: 6.608250 ms (FindLiveObjects: 0.334334 ms CreateObjectMapping: 0.138125 ms MarkObjects: 3.552791 ms  DeleteObjects: 2.582500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 33.707648 seconds.
-  path: Assets/Karting/Scenes/Karting Project.unity
-  artifactKey: Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Karting/Scenes/Karting Project.unity using Guid(8283dbe0d923c40c18a747233895fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0880a6c54db7ea770edaf23fdf92e5c') in 0.011336 seconds 

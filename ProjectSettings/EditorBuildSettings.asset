@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Karting/Scenes/IntroMenu.unity
     guid: d29260d8d84c94bd7ac95807b3da99d4
-  - enabled: 1
-    path: Assets/Karting/Scenes/MainScene.unity
-    guid: 92786e23da2af4a4f8803aaf44c47121
   - enabled: 0
-    path: Assets/Karting/Scenes/LoseScene.unity
-    guid: 9c449e01147824b419cda406398fb2e7
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Karting/Scenes/WinScene.unity
-    guid: d6801f2e59f75ee4b919cf5da4e48e3b
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Karting/Scenes/Karting Project.unity
     guid: 8283dbe0d923c40c18a747233895fdb4

@@ -18,8 +18,8 @@ public class puntaje : MonoBehaviour
 
     public void Update() {
         textMesh.text = puntos.ToString("");
-        if(puntos == 14){
-            SceneManager.LoadScene(3);
+        if(puntos == 15){
+            SceneManager.LoadScene("GameWin");
         }
     }
 
