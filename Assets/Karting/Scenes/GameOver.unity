@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1739916796}
         m_TargetAssemblyTypeName: KartGame.UI.LoadSceneButton, KartGame
         m_MethodName: LoadTargetScene
         m_Mode: 1
@@ -680,9 +680,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1739916791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 315129902b9794dc59224a6c38ad9e16, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fb0be89f0d0b38469396506a9e54beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneName: IntroMenu
 --- !u!1 &1799495518
 GameObject:
   m_ObjectHideFlags: 0

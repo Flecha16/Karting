@@ -11,6 +11,11 @@ public class TimeController : MonoBehaviour
 
     private float restante;
     private bool enMarcha;
+    public puntaje pt;
+
+    private void Start() {
+        pt = FindObjectOfType<puntaje>();
+    }
 
     private void Awake(){
         restante = (min * 60) + seg;
@@ -20,11 +25,21 @@ public class TimeController : MonoBehaviour
     void Update()
     {
         if(enMarcha){
-            restante += Time.deltaTime;
+            restante -= Time.deltaTime;
+            if (restante < 1){
+                if(pt.puntos >= 10){
+                    enMarcha = false;
+                    SceneManager.LoadScene("GameWin");
+                } else {
+                    enMarcha = false;
+                    SceneManager.LoadScene("GameOver");
+                }
+            }
             int tempMin = Mathf.FloorToInt(restante / 60);
             int tempSeg = Mathf.FloorToInt(restante % 60);
             tiempo.text = string.Format("{00:00}:{01:00}", tempMin, tempSeg);
         }
     }
+    
     
 }
